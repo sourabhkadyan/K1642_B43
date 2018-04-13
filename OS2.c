@@ -3,6 +3,7 @@
 #include<time.h>
 int main()
 {
+	int m;
 	int reference_string[10],page_faults = m,n,s,pages,frames,i;
 	
 	printf("\nEnter Total number of pages:\n"):
@@ -11,8 +12,6 @@ int main()
 	printf("\nEnter values of Reference string:\n");
 	for(m=0;m<pages;m++)
 	{
-		//printf("values No. [%d]:\t",m+1);
-		//scanf("%d",&reference_string[m]);
 		reference_string[m] = printRandoms(0,30,1);
 	}
 	for(m=0;m<pages;m++)
